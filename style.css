@@ -1,0 +1,39 @@
+/*
+   Palette (RGB)
+    Red             rgb(99, 37, 20)
+    white           rgb(214, 217, 214)
+    light brown     rgb(116, 104, 52)
+    green           rgb(50, 61, 27)
+    grey            rgb(136, 124, 104)
+*/
+
+a:link, :visited {
+    text-decoration: none;
+    color: rgb(136, 124, 104);
+}
+
+nav {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgb(241, 211, 158);
+    font-size: 23px;
+    list-style-type: none;
+    margin: 3px;
+    padding: 3px;
+    overflow: hidden;
+    background-color: #333333;  
+    position: fixed, top;
+}
+
+
+body {
+    background-color: rgb(214, 217, 214);
+    color: rgb(99, 37, 20);
+}
+
+hr {
+    color: #333333;
+    background-color: #333333;
+    height: 3px;
+    border-radius: 3px;
+}
